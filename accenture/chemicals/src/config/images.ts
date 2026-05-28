@@ -1,0 +1,21 @@
+/** Image paths — separated from components per project conventions. */
+export const images = {
+  accentureLogo: './images/accenture-logo.svg',
+  truechoiceLogo: './images/truechoice-logo.svg',
+  accentureLogoLight: './images/accenture-logo-light.svg',
+  truechoiceLogoLight: './images/truechoice-logo-light.svg',
+  heroImage: './images/hero-image.png',
+  caseStudyDashboard: './images/case-study-dashboard.png',
+  aiToolsBg: './images/ai-tools-bg.png',
+  whyPartnership: './images/why-partnership.png',
+  salesTab: './images/sales-tab.png',
+  hrTab: './images/hr-tab.png',
+  ctaBanner: './images/cta-banner.png',
+  checkIcon: './images/check-icon.svg',
+  navLeft: './images/nav-left.svg',
+  navRight: './images/nav-right.svg',
+  team02: './images/team-02.png',
+  team03: './images/team-03.png',
+  overviewIcon1: './images/overview-icon-1.svg',
+  overviewIcon2: './images/overview-icon-2.svg',
+} as const;

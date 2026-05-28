@@ -1,0 +1,13 @@
+{
+  "name": "poc-microsite",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "accenture/chemicals"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=accenture-chemicals",
+    "build": "npm run build --workspace=accenture-chemicals",
+    "lint": "npm run lint --workspace=accenture-chemicals"
+  }
+}
