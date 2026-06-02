@@ -7,7 +7,7 @@ type PrimaryButtonProps = {
 } & Pick<ButtonHTMLAttributes<HTMLButtonElement>, 'type' | 'onClick'>;
 
 const baseClassName =
-  'inline-flex items-center justify-center rounded-sm border-0 bg-accenture-primary px-6 py-3 text-sm font-bold uppercase tracking-[1.2px] text-white transition-colors hover:bg-accenture-primary/90';
+  'inline-flex items-center justify-center rounded-sm border-0 bg-brand-primary px-6 py-3 text-sm font-bold uppercase tracking-[1.2px] text-white transition-colors hover:bg-brand-primary/90';
 
 export function PrimaryButton({ children, href, className = '', type = 'button', onClick }: PrimaryButtonProps) {
   if (href) {

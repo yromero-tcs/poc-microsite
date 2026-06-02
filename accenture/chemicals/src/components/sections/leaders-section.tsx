@@ -20,7 +20,7 @@ export function LeadersSection() {
     <section id="leaders" className="bg-white py-16 md:py-24 lg:py-32">
       <div className="px-6 lg:px-[160px]">
         <SiteContainer>
-          <SectionLabel variant="dark">{leadersContent.label}</SectionLabel>
+          <SectionLabel variant="muted">{leadersContent.label}</SectionLabel>
           <SectionHeading size="xl" className="mt-4 text-accenture-dark-gray">
             {leadersContent.heading}
           </SectionHeading>

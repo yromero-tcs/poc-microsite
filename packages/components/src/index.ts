@@ -1,3 +1,4 @@
+export type { MetricGridVariant, SectionLabelVariant } from './types';
 export { PageGutter, SiteContainer } from './site-container';
 export { SectionLabel } from './section-label';
 export { SectionHeading } from './section-heading';

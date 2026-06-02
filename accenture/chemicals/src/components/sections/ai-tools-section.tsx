@@ -11,7 +11,7 @@ export function AiToolsSection() {
       <div className="relative z-10 px-6 lg:px-[160px]">
         <SiteContainer className="space-y-10 md:space-y-16">
           <div className="max-w-[950px] space-y-4">
-            <SectionLabel variant="light">{aiToolsContent.label}</SectionLabel>
+            <SectionLabel variant="on-dark">{aiToolsContent.label}</SectionLabel>
             <SectionHeading size="xl" className="text-[#f3f0f1]">
               {aiToolsContent.heading}
             </SectionHeading>

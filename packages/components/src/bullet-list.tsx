@@ -11,7 +11,7 @@ export function BulletList({ items, iconSrc }: BulletListProps) {
           <span className="relative mt-0.5 size-7 shrink-0">
             <img src={iconSrc} alt="" className="size-full object-contain" />
           </span>
-          <span className="text-base leading-6 text-accenture-body-muted">{item}</span>
+          <span className="text-base leading-6 text-brand-muted">{item}</span>
         </li>
       ))}
     </ul>

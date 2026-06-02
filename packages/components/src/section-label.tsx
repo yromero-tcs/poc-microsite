@@ -1,18 +1,20 @@
+import type { SectionLabelVariant } from './types';
+
 type SectionLabelProps = {
   children: string;
-  variant?: 'purple' | 'light' | 'dark';
+  variant?: SectionLabelVariant;
   className?: string;
 };
 
-const variantClasses: Record<NonNullable<SectionLabelProps['variant']>, string> = {
-  purple: 'text-accenture-secondary',
-  light: 'text-accenture-light-purple',
-  dark: 'text-accenture-body-muted',
+const variantClasses: Record<SectionLabelVariant, string> = {
+  emphasis: 'text-brand-secondary',
+  'on-dark': 'text-brand-accent-light',
+  muted: 'text-brand-muted',
 };
 
 export function SectionLabel({
   children,
-  variant = 'purple',
+  variant = 'emphasis',
   className = '',
 }: SectionLabelProps) {
   return (

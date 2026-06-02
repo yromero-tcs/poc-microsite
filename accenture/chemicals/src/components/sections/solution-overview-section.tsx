@@ -8,7 +8,7 @@ export function SolutionOverviewSection() {
       <div className="px-6 lg:px-[160px]">
         <SiteContainer className="flex flex-col gap-8 lg:flex-row lg:flex-wrap lg:items-end lg:gap-6">
           <div className="flex flex-1 flex-col gap-4 lg:min-w-[548px]">
-            <SectionLabel variant="light">{overviewContent.label}</SectionLabel>
+            <SectionLabel variant="on-dark">{overviewContent.label}</SectionLabel>
             <SectionHeading size="xl" className="text-white">
               {overviewContent.heading}
             </SectionHeading>
