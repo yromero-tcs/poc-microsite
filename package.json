@@ -3,11 +3,17 @@
   "private": true,
   "workspaces": [
     "packages/*",
+    "shared/utils",
     "accenture/chemicals"
   ],
   "scripts": {
     "dev": "npm run dev --workspace=accenture-chemicals",
     "build": "npm run build --workspace=accenture-chemicals",
-    "lint": "npm run lint --workspace=accenture-chemicals"
+    "lint": "npm run lint --workspace=accenture-chemicals",
+    "content:export": "npm run export:content -w @poc-microsite/content-utils -- --client accenture/chemicals",
+    "content:import": "npm run import:content -w @poc-microsite/content-utils -- --client accenture/chemicals",
+    "images:export": "npm run export:images -w @poc-microsite/content-utils -- --client accenture/chemicals",
+    "images:import": "npm run import:images -w @poc-microsite/content-utils -- --client accenture/chemicals",
+    "config:import": "npm run images:import && npm run content:import"
   }
 }

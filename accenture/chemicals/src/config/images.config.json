@@ -1,0 +1,20 @@
+{
+  "accentureLogo": "./images/accenture-logo.svg",
+  "accentureLogoLight": "./images/accenture-logo-light.svg",
+  "aiToolsBg": "./images/ai-tools-bg.png",
+  "caseStudyDashboard": "./images/case-study-dashboard.png",
+  "checkIcon": "./images/check-icon.svg",
+  "ctaBanner": "./images/cta-banner.png",
+  "heroImage": "./images/hero-image.png",
+  "hrTab": "./images/hr-tab.png",
+  "navLeft": "./images/nav-left.svg",
+  "navRight": "./images/nav-right.svg",
+  "overviewIcon1": "./images/overview-icon-1.svg",
+  "overviewIcon2": "./images/overview-icon-2.svg",
+  "salesTab": "./images/sales-tab.png",
+  "team02": "./images/team-02.png",
+  "team03": "./images/team-03.png",
+  "truechoiceLogo": "./images/truechoice-logo.svg",
+  "truechoiceLogoLight": "./images/truechoice-logo-light.svg",
+  "whyPartnership": "./images/why-partnership.png"
+}

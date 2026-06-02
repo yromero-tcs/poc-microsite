@@ -39,9 +39,9 @@ export function LeadersSection() {
                 className="flex flex-col items-center rounded-lg border border-accenture-stage-light bg-white p-6 text-center shadow-sm"
               >
                 <div className="relative mb-6 flex size-[160px] items-center justify-center overflow-hidden rounded-full bg-accenture-secondary/20 sm:size-[200px] lg:size-[226px]">
-                  {member.imageKey ? (
+                  {member.imageKey && member.imageKey in memberImages ? (
                     <Image
-                      src={memberImages[member.imageKey]}
+                      src={memberImages[member.imageKey as keyof typeof memberImages]}
                       alt={member.name}
                       fill
                       className="object-cover"

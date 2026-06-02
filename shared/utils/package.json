@@ -1,0 +1,25 @@
+{
+  "name": "@poc-microsite/content-utils",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./schema/landing-page": "./src/schema/landing-page.ts",
+    "./schema/images": "./src/schema/images.ts"
+  },
+  "scripts": {
+    "export:content": "tsx src/scripts/export-landing-page-to-excel.ts",
+    "import:content": "tsx src/scripts/import-landing-page-from-excel.ts",
+    "export:images": "tsx src/scripts/export-images-to-excel.ts",
+    "import:images": "tsx src/scripts/import-images-from-excel.ts"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
+  }
+}
